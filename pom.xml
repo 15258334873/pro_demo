@@ -32,8 +32,12 @@
         <netty-all.version>4.1.32.Final</netty-all.version>
     </properties>
 
-    <dependencies>
 
+    <modules>
+        <module>tool/pro_demo-common</module>
+        <module>model/pro_demo_model</module>
+    </modules>
+    <dependencies>
         <!--aop-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
