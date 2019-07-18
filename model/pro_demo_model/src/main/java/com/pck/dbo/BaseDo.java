@@ -1,4 +1,4 @@
-package com.pro.demo.model.dbo;
+package com.pck.dbo;
 
 import lombok.Data;
 

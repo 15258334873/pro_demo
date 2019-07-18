@@ -21,6 +21,7 @@
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>com.pck</groupId>
             <artifactId>pro_demo_model</artifactId>
