@@ -26,6 +26,13 @@
             <artifactId>pro_demo_model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.pck</groupId>
+            <artifactId>pro_demo-facade</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
     <build>
