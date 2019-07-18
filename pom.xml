@@ -30,12 +30,15 @@
         <javassist.version>3.24.1-GA</javassist.version>
         <fastjson.version>1.2.56</fastjson.version>
         <netty-all.version>4.1.32.Final</netty-all.version>
+        <guava.version>27.0.1-jre</guava.version>
     </properties>
 
 
     <modules>
         <module>tool/pro_demo-common</module>
         <module>model/pro_demo_model</module>
+        <module>dal/pro_demo-dal</module>
+        <module>biz/pro_demo-biz</module>
     </modules>
     <dependencies>
         <!--aop-->
@@ -191,17 +194,28 @@
             <version>${fastjson.version}</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+        <!-- netty-all -->
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
             <version>${netty-all.version}</version>
         </dependency>
 
+        <!-- guava -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
+        </dependency>
 
 
-
-
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.4</version>
+            <scope>provided</scope>
+        </dependency>
 
 
     </dependencies>
