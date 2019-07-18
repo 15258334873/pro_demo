@@ -39,6 +39,7 @@
         <module>model/pro_demo_model</module>
         <module>dal/pro_demo-dal</module>
         <module>biz/pro_demo-biz</module>
+        <module>biz/pro_demo-facade</module>
     </modules>
     <dependencies>
         <!--aop-->
