@@ -22,7 +22,7 @@
         <cglib.version>3.2.10</cglib.version>
         <commons-lang3.version>3.8.1</commons-lang3.version>
         <commons-net.version>3.6</commons-net.version>
-        <commons-io.version>2.6</commons-io.version>
+        <commons-io.version>2.7</commons-io.version>
         <commons-collection4.version>4.2</commons-collection4.version>
         <dubbo-spring-boot-starter>0.2.0</dubbo-spring-boot-starter>
         <zkclient.version>0.10</zkclient.version>
